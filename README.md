@@ -1,4 +1,4 @@
-# Tourism Management System (DataBase Course) 
+# Tourism Management System (DataBase Systems Project) 
 
 I developed a simple Tourism Management System focused on performing basic database queries. It is designed to manage data related to tourists, hotels, destinations, transportation, and reviews. This project used Node.js for backend development and Handlebars.js (HBS) for dynamic views. The project also incorporated SQL databases for handling and organizing the data.
 

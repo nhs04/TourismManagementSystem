@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tourism App</title>
+</head>
+<body>
+    <h1>Tourism Database Interface</h1>
+    <form id="queryForm" action="/tourists" method="POST">
+        <label for="sqlQuery">Enter SQL Query:</label>
+        <input type="text" id="query" name="query" placeholder="e.g., SELECT * FROM Tourists WHERE FirstName = 'John'" style="width: 500px; height: 50px; font-size: 20px; border: 1px solid #ccc; border-radius: 5px; box-shadow: 0 0 5px #ccc; outline: none;">
+        <button type="submit">Submit</button>
+    </form>
+    <form id="queryForm" action="/touristspayments" method="POST">
+        <label for="sqlQuery">Enter SQL Query:</label>
+        <input type="text" id="query" name="query" placeholder="Insert join query here" style="width: 500px; height: 50px; font-size: 20px; border: 1px solid #ccc; border-radius: 5px; box-shadow: 0 0 5px #ccc; outline: none;">
+        <button type="submit">Submit</button>
+    </form>
+ 
+
+    
+    </script>
+</body>
+</html>
